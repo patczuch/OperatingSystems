@@ -1,0 +1,4 @@
+Pomiar czasu przy użyciu funkcji bibliotecznych:
+Time taken: 599798ns
+Pomiar czasu przy użyciu funkcji systemowych:
+Time taken: 20471821ns

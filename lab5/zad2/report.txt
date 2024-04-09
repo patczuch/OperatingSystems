@@ -1,0 +1,59 @@
+Square width 0.00000001
+
+
+Number of processes: 1, Square width: 0.00000001
+Result: 3.141592657936987
+Time taken: 326.09ms
+
+Number of processes: 5, Square width: 0.00000001
+Result: 3.141592657936586
+Time taken: 67.82ms
+
+Number of processes: 10, Square width: 0.00000001
+Result: 3.141592657936638
+Time taken: 51.11ms
+
+Number of processes: 100, Square width: 0.00000001
+Result: 3.141592657936670
+Time taken: 37.78ms
+
+
+Square width 0.000000001
+
+
+Number of processes: 1, Square width: 0.000000001
+Result: 3.141592667666759
+Time taken: 3258.40ms
+
+Number of processes: 5, Square width: 0.000000001
+Result: 3.141592667667043
+Time taken: 703.82ms
+
+Number of processes: 10, Square width: 0.000000001
+Result: 3.141592667667023
+Time taken: 478.94ms
+
+Number of processes: 100, Square width: 0.000000001
+Result: 3.141592667667031
+Time taken: 353.10ms
+
+
+Square width 0.0000000001
+
+
+Number of processes: 1, Square width: 0.0000000001
+Result: 3.141592446475665
+Time taken: 33053.60ms
+
+Number of processes: 5, Square width: 0.0000000001
+Result: 3.141592446476575
+Time taken: 6861.41ms
+
+Number of processes: 10, Square width: 0.0000000001
+Result: 3.141592446476627
+Time taken: 4739.19ms
+
+Number of processes: 100, Square width: 0.0000000001
+Result: 3.141592446476663
+Time taken: 3499.93ms
+

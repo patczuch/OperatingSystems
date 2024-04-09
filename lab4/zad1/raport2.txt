@@ -1,0 +1,56 @@
+Wyniki:
+
+FORK
+
+IGNORE
+Parent:
+Child:
+
+HANDLER
+Parent:
+Received the signal!
+Child:
+Received the signal!
+
+MASK
+Parent:
+Signal pending
+Child:
+Signal pending
+
+PENDING
+Parent:
+Signal pending
+Child:
+Signal not pending
+
+
+EXEC
+
+IGNORE
+Parent:
+Child:
+
+HANDLER
+Parent:
+Received the signal!
+Child:
+make[1]: [Makefile:44: test2] Sygnał użytkownika 1 (zignorowano)
+
+MASK
+Parent:
+Signal pending
+Child:
+Signal pending
+
+PENDING
+Parent:
+Signal pending
+Child:
+Signal pending
+
+Wnioski:
+
+Przy tworzeniu nowego procesu funkcją fork proces-dziecko dziedziczy po rodzicu ustawienia ignorowania oraz zamaskowania sygnału oraz funkcje ustawione do obsługi sygnałów. Dziecko nie ma jednak dostępu do oczekuących sygnałów rodzica.
+
+Przy tworzeniu nowego procesu funkcją exec proces-dziecko dziedziczy po rodzicu ustawienia ignorowania oraz zamaskowania sygnału, ale nie dziedziczy funkcji ustawionych do obsługi sygnałów. Dziecko ma jednak dostęp do oczekuących sygnałów rodzica.

@@ -1,0 +1,4 @@
+Pomiar czasu przy kopiowaniu po 1 znaku:
+Time taken: 3778977ns
+Pomiar czasu przy kopiowaniu po 1024 znakach:
+Time taken: 250940ns

@@ -1,0 +1,1 @@
+Exercises for AGH Operating Systems course
